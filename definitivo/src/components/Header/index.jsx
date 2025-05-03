@@ -2,15 +2,15 @@ import styles from './Header.module.css'
 
 function Header() {
     return (
-        <Header className={styles.header}>
+        <header className={styles.header}>
             <span>Front-Enterprise</span>
-            <nav>
+            <nav>   
                 <a href="">Home</a>
                 <a href="">Sobre</a>
                 <a href="">Projetos</a>
                 <a href="">Contatos</a>
             </nav>
-        </Header>
+        </header>
     )
 }
 
