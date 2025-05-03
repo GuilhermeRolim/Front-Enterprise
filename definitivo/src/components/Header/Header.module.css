@@ -12,14 +12,12 @@
 .header span {
     front-size: 1.5rem; /* 24px -> 16px = 1rem */
     font-weight: bold;
-
 }
 .header a {
     text-decoration: none;
     color: var(--white);
     padding-right: 1.5rem;
     font-size: 1.125rem; /* 18px -> 16px = 1rem */
-
 }
 
 .header a:hover {
