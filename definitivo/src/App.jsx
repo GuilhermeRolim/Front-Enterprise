@@ -12,7 +12,8 @@ function App() {
           <p>
             Olá, seja bem-vindo <br/>
             <span> somos a Front-Enterprise</span> <br/>
-            <span> uma empresa de tecnologia focada em soluções e para o mercado financeiro.</span>
+            uma empresa de tecnologia <br />
+            focada em soluções financeiras.
           </p>
           <button className='btn btn-red'>
             Saiba mais sobre nós
