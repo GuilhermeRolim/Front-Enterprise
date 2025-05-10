@@ -8,20 +8,18 @@ function App() {
     <>
       <Header />
       <section className='container'>
-        <div>
+        <div className='apresentacao'>
           <p>
-            Olá, somos <br/>
-            <span> Guilherme Rolim</span> <br/>
-            <span> Gustavo Catani</span> <br/>
-            <span> Plinio Augusto</span> <br/>
-            Estudantes de análise e Desenvolvimento de Sistemas
+            Olá, seja bem-vindo <br/>
+            <span> somos a Front-Enterprise</span> <br/>
+            <span> uma empresa de tecnologia focada em soluções e para o mercado financeiro.</span>
           </p>
-          <button>
+          <button className='btn btn-red'>
             Saiba mais sobre nós
           </button>
         </div>
         <figure>
-          <img src="" alt="" />
+          <img className='img-home' src="/undraw_mobile-payments_0u42.svg" alt="Imagem de  home" />
         </figure>
       </section>       
       <Footer/>
