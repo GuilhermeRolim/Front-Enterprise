@@ -13,7 +13,7 @@ function App() {
             Olá, seja bem-vindo <br/>
             <span> somos a Front-Enterprise</span> <br/>
             uma empresa de tecnologia <br />
-            focada em soluções financeiras.
+            focada em soluções financeiras a.
           </p>
           <button className='btn btn-red'>
             Saiba mais sobre nós
