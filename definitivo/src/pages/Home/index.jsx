@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import { Link } from 'react-router-dom'
 function Home (){
     return(
         <>
@@ -12,9 +13,9 @@ function Home (){
                     uma empresa de tecnologia <br />
                     focada em soluções financeiras a.
                 </p>
-                <button className='btn btn-red'>
+                <Link to="/sobre" className='btn btn-red'>
                     Saiba mais sobre nós
-                </button>
+                </Link>
                 </div>
                 <figure>
                 <img className='img-home' src="/undraw_mobile-payments_0u42.svg" alt="Imagem de  home" />
