@@ -1,22 +1,22 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Container from '../../components/Container'
+import './sobre.modules.css';
 
-function Sobre(){
-   
-    return(
-        <>
-            <Header /> 
-                <Container> 
-                    <section>
-                    <h2>Sobre</h2>
-                    <img src='undraw_online-banking_l9sn.svg' alt='Imagem de sobre' />
-                    </section>
-                </Container>
-                
-            <Footer />
-        </>
-    )
+
+function sobre() {
+  return (
+    <>
+      <Header />
+      <Container>
+        <section className="sobre-section">
+          <h2 className="sobre-title">Sobre</h2>
+          <img src="undraw_online-banking_l9sn.svg" alt="Imagem de sobre" className="sobre-image" />
+        </section>
+      </Container>
+      <Footer />
+    </>
+  );
 }
 
-export default Sobre
+export default sobre;
