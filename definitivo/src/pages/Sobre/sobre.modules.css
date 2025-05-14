@@ -1,6 +1,13 @@
-.sobre {
-    background-image: url();
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed; 
+.sobre-section {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.sobre img{
+    height: 350px; 
 }
