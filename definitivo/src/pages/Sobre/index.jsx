@@ -10,7 +10,7 @@ function sobre() {
       <Header />
       <Container>
         <section className="sobre-section">
-          <h2 className="sobre-title">Sobre</h2>
+          <h2 className="sobre-title">AQUI FICA O TEXTO</h2>
           <img src="undraw_online-banking_l9sn.svg" alt="Imagem de sobre" className="sobre-image" />
         </section>
       </Container>
