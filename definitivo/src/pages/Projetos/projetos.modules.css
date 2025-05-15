@@ -1,0 +1,17 @@
+.projetos-section {
+    width: 100%;
+    min-height: 90vh;
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.projetos img {
+  height: 350px; 
+  position: fixed;
+  top: 50%; 
+  left: 0; 
+  transform: translateY(-50%); 
+}
