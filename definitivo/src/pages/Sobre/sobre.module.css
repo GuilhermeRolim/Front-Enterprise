@@ -1,13 +1,36 @@
-.sobre-section {
-    width: 100%;
-    min-height: 90vh;
-    position: fixed;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-
+.sobreSection {
+  padding: 2rem 0;
 }
 
-.img_sobre {
-    height: 350px;
+.sobreContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.imgContainer {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.imgSobre {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  margin-bottom: 1rem;
+}
+
+.creditos {
+  font-size: 0.9rem;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
 }
