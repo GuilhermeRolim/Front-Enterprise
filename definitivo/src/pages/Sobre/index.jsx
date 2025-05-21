@@ -50,8 +50,8 @@ function Sobre() {
               <div className={styles.creditos}>
                 <p><strong>Criadores do projeto:</strong></p>
                 <p>Gustavo Catani Lazzarini<br />RA: 824121241</p>
-                <p>Guilherme Forquito<br />RA: ainda não</p>
-                <p>Plinio<br />RA: ainda não</p>
+                <p>Guilherme Forchito Rolim<br />RA: 82414858</p>
+                <p>Plinio Augusto Pizzolitto Benevenuto<br />RA: 82416264</p>
               </div>
             </div>
           </div>

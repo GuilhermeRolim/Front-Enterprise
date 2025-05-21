@@ -1,5 +1,5 @@
 .sobreSection {
-  padding: 2rem 0;
+  padding: 2.25rem;
 }
 
 .sobreContent {
@@ -23,8 +23,8 @@
 
 .imgSobre {
   width: 100%;
-  max-width: 500px;
-  height: 500px;
+  max-width: 400px;
+  height: 400px;
   margin-bottom: 1rem;
 }
 
@@ -33,4 +33,38 @@
   color: #333;
   text-align: center;
   line-height: 1.5;
+}
+/* ============================== */
+/*       NOVAS REGRAS AQUI       */
+/* ============================== */
+
+/* Estilo para h2 */
+h2 {
+  color: var(--red);
+  margin-bottom: 12px;
+}
+
+/* Estilo para h3 */
+h3 {
+  color: var(--red);
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* Estilo para parágrafos */
+p {
+  line-height: 1.8; /* espaçamento entre linhas */
+  margin-bottom: 16px; /* espaçamento entre parágrafos */
+  color: #333;
+}
+
+/* Listas */
+ul {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+li {
+  line-height: 1.6;
+  margin-bottom: 6px;
 }
