@@ -1,7 +1,7 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Container from '../../components/Container'
-import './sobre.modules.css';
+import styles from '../Sobre/Sobre.module.css';
 
 
 function sobre() {
@@ -10,8 +10,8 @@ function sobre() {
       <Header />
       <Container>
         <section className="sobre-section">
-          <h2 className="sobre-title">AQUI FICA O TEXTO</h2>
-          <img src="undraw_online-banking_l9sn.svg" alt="Imagem de sobre" className="sobre-image" />
+          <h2 className="sobre-title">Front-Enterprise</h2>
+          <img className={styles.img_sobre} src="/undraw_online-banking_l9sn.svg" alt="Imagem de sobre"/>
         </section>
       </Container>
       <Footer />
