@@ -1,0 +1,18 @@
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza a imagem */
+  text-align: center;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: row; /* Organiza os blocos lado a lado */
+  justify-content: center; /* Centraliza na tela */
+  gap: 20px; /* Adiciona espaçamento entre os elementos */
+}
+
+.column {
+  width: 30%; /* Define um tamanho para cada bloco */
+  text-align: center; /* Centraliza o conteúdo */
+}
