@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Projetos from "./pages/Projetos";
 import Contatos from "./pages/Contatos";
+import Denuncia from "./pages/Denuncia";
 import Page404 from "./pages/Page404";
 
 function AppRoutes(){
@@ -13,6 +14,7 @@ function AppRoutes(){
                 <Route path='/sobre' element={ <Sobre /> }></Route>
                 <Route path='/projetos' element={ <Projetos /> }></Route>
                 <Route path='/contatos' element={ <Contatos /> }></Route>
+                <Route path='/denuncia' element={ <Denuncia /> }></Route>
                 <Route path="*" element={ <Page404 /> }></Route>
             </Routes>
         </BrowserRouter>
