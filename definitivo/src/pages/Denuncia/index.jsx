@@ -18,7 +18,7 @@ function Denuncia() {
             <Header />
             <Container>
                 <div className={styles.formContainer}>
-                    <h2>Denúnciar uma chave Pix</h2>
+                    <h2>Denuncie a chave Pix</h2>
 
                     <form onSubmit={handleSubmit}>
                         <div className={styles.formGroup}>
@@ -55,7 +55,7 @@ function Denuncia() {
                             <div className={styles.genderOptions}>
                                 <label><input type="radio" name="genero" value="masculino" /> Masculino</label>
                                 <label><input type="radio" name="genero" value="feminino" /> Feminino</label>
-                                <label><input type="radio" name="genero" value="outro" /> Outro</label>
+                                <label><input type="radio" name="genero" value="outro" /> Outros</label>
                             </div>
                         </div>
 
@@ -70,9 +70,9 @@ function Denuncia() {
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label htmlFor="motivo">Motivo da Denúncia</label>
+                            <label htmlFor="motivo">Motivo da sua Denúncia</label>
                             <select id="motivo" name="motivo">
-                                <option value="">Selecione...</option>
+                                <option value="">Selecione</option>
                                 <option value="fraude">Fraude</option>
                                 <option value="golpe">Golpe</option>
                                 <option value="outros">Outros</option>
@@ -89,7 +89,7 @@ function Denuncia() {
 
                         <div className={styles.buttonGroup}>
                             <button type="submit" className={styles.btnDenuncia}>Denúnciar</button>
-                            <button type="button" onClick={() => navigate('/')} className={styles.btnVoltar}>Voltar para Home</button>
+                            <button type="button" onClick={() => navigate('/')} className={styles.btnVoltar}>Volte Home</button>
 
                         </div>
                     </form>
